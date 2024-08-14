@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+  <div class="calculator-wrapper">
+    <aside class="sidebar">
+      <div class="logo">
+        <!-- <img src="logo-placeholder.png" alt="Wi-Jungle Logo"> -->
+        <span>Wi-Jungle</span>
+      </div>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Calculator</a></li>
+        </ul>
+      </nav>
+    </aside>
+    
+    <main class="calculator-container">
+      <header class="calculator-header">
+        <h2>Calculator</h2>
+        <div class="user-info">
+          <span>Hello</span>
+          <span class="user-name">User</span>
+          <!-- <img src="user-avatar-placeholder.png" alt="User Avatar" class="user-avatar"> -->
+        </div>
+      </header>
+
+      <div class="calculator-screen">
+        <input type="text" id="calculator-display" value="0" disabled>
+      </div>
+
+      <div class="calculator-buttons">
+        <button>Rad</button><button>Deg</button><button>x!</button><button>(</button><button>)</button><button>%</button><button>AC</button>
+        <button>Inv</button><button>sin</button><button>ln</button><button>7</button><button>8</button><button>9</button><button>+</button>
+        <button>π</button><button>cos</button><button>log</button><button>4</button><button>5</button><button>6</button><button>-</button>
+        <button>e</button><button>tan</button><button>√</button><button>1</button><button>2</button><button>3</button><button>*</button>
+        <button>Ans</button><button>EXP</button><button>x^</button><button>0</button><button>.</button><button>=</button><button>/</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
